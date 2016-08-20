@@ -1,0 +1,329 @@
+object frm2016Assignment5: Tfrm2016Assignment5
+  Left = 283
+  Height = 509
+  Top = 171
+  Width = 514
+  Caption = '2015 Assignment 5'
+  ClientHeight = 509
+  ClientWidth = 514
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object tabCntlr: TPageControl
+    Left = 0
+    Height = 509
+    Top = 0
+    Width = 514
+    ActivePage = tbFor
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object tbFor: TTabSheet
+      Caption = 'For loop'
+      ClientHeight = 481
+      ClientWidth = 506
+      object gbFor: TGroupBox
+        Left = 0
+        Height = 481
+        Top = 0
+        Width = 506
+        Align = alClient
+        Caption = 'For iCount := Value 1 to Value 2 do'
+        ClientHeight = 461
+        ClientWidth = 502
+        TabOrder = 0
+        object lblForValue2: TLabel
+          Left = 8
+          Height = 15
+          Top = 48
+          Width = 37
+          Caption = 'Value 1'
+          ParentColor = False
+        end
+        object lblForValue1: TLabel
+          Left = 8
+          Height = 15
+          Top = 88
+          Width = 37
+          Caption = 'Value 2'
+          ParentColor = False
+        end
+        object tbForExecSpeed: TTrackBar
+          Left = 104
+          Height = 25
+          Top = 136
+          Width = 96
+          Position = 0
+          TabOrder = 0
+        end
+        object sedForValue1: TSpinEdit
+          Left = 104
+          Height = 23
+          Top = 48
+          Width = 96
+          TabOrder = 1
+        end
+        object sedForValue2: TSpinEdit
+          Left = 102
+          Height = 23
+          Top = 88
+          Width = 98
+          TabOrder = 2
+        end
+        object lblForExecSpeed: TLabel
+          Left = 8
+          Height = 15
+          Top = 136
+          Width = 85
+          Caption = 'Execution speed'
+          ParentColor = False
+        end
+        object btnForCnt: TButton
+          Left = 6
+          Height = 25
+          Top = 215
+          Width = 194
+          Caption = 'Count'
+          OnClick = btnForCntClick
+          TabOrder = 3
+        end
+        object btnForAdd: TButton
+          Left = 6
+          Height = 25
+          Top = 263
+          Width = 194
+          Caption = 'Execution (Add)'
+          OnClick = btnForAddClick
+          TabOrder = 4
+        end
+        object btnForConcat: TButton
+          Left = 6
+          Height = 25
+          Top = 311
+          Width = 194
+          Caption = 'Concatenate digits'
+          OnClick = btnForConcatClick
+          TabOrder = 5
+        end
+        object lstForResults: TListBox
+          Left = 216
+          Height = 336
+          Top = 48
+          Width = 280
+          ItemHeight = 0
+          TabOrder = 6
+        end
+        object pbarFor: TProgressBar
+          Left = 8
+          Height = 20
+          Top = 416
+          Width = 488
+          TabOrder = 7
+        end
+        object lblForDescr: TLabel
+          Left = 8
+          Height = 15
+          Top = 8
+          Width = 426
+          Caption = 'The for keyword starts a control loop, which is executed a finite number of times.'
+          ParentColor = False
+        end
+        object lblForProgress: TLabel
+          Left = 224
+          Height = 15
+          Top = 400
+          Width = 45
+          Caption = 'Progress'
+          ParentColor = False
+        end
+        object btnResetFor: TBitBtn
+          Left = 8
+          Height = 30
+          Top = 354
+          Width = 192
+          Caption = 'Reset'
+          Glyph.Data = {
+            DA020000424DDA0200000000000036000000280000000D0000000D0000000100
+            200000000000A402000064000000640000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000B8652F00B564
+            2F0AA65E2E11CB70350000000000000000000000000000000000000000000000
+            0000000000000000000000000000CC753B00D17C410DCE864B5BA970400EA66C
+            3C00000000000000000000000000000000000000000000000000000000000000
+            0000C5723A00FBBA6A00E99F5A70D692525EFFE8830000000000000000000000
+            0000000000000000000000000000000000000000000000000000EFA25900EC9E
+            5744E79C55B8A668391600000000000000000000000000000000000000000000
+            0000000000000000000000000000E1904E00E2914E26EA9951D9CB814552BE64
+            3659BF62326ABF5C2869C15E2769C4642D6AC4683166AB5C2E20CB6E37000000
+            0000DB864700DC86471EE9924BDFD584458BD06D3BDAD46C36FFD46A32FFD468
+            2BFFD66B2DFBD06D3196B2603110C369340000000000D8804300D67F422BE589
+            44EBD68040A6D06D3BDAD46B36FFD66E38FFD77037FFCB6831B39B4D2210A955
+            270000000000723C1F00E9864200D67A3D5CE1813DFDD2793C9CCF6C3BDAD36A
+            36FFD46C37FFD67039FFD16E38DFB15E304A0000000266341B00D6794100BE6A
+            391CDA7D41C2DF8041FECB753E6DCF6C3CDBD16A37FAD26E3BEBD56E39FFD670
+            39FFD26F39E6C2673585B8613247C46A365BD5763EBDDD7D41FFD87B41D6BB6A
+            3A26CD6C3ED5C7673990C56F4242D2713ECDD56F39FFD67039FFD6713AFED672
+            3BF8D8753CFBDA773EFFD8773EF3CB703C64FFFF8800BD69405FAF5E3910CC6D
+            3E00C9734525D0724097D3703CE5D5703BFBD6713BFFD6723CF9D4723CD5CC6F
+            3B63A3572F06B15F33008D3E1B02A049230000000000C2714600B96F4706C972
+            4430CD714164CE713F75CC6F3D5CC2693A227A4125019E552F0000000000
+          }
+          OnClick = btnResetForClick
+          TabOrder = 8
+        end
+      end
+    end
+    object tbWhile: TTabSheet
+      Caption = 'While loop'
+      ClientHeight = 481
+      ClientWidth = 506
+      object gbWhile: TGroupBox
+        Left = 0
+        Height = 481
+        Top = 0
+        Width = 506
+        Align = alClient
+        Caption = 'iCount := Value 1; While iCount <= Value 2 do'
+        ClientHeight = 461
+        ClientWidth = 502
+        TabOrder = 0
+        object lblWhileValue1: TLabel
+          Left = 8
+          Height = 15
+          Top = 48
+          Width = 37
+          Caption = 'Value 1'
+          ParentColor = False
+        end
+        object lblWhileValue2: TLabel
+          Left = 8
+          Height = 15
+          Top = 88
+          Width = 37
+          Caption = 'Value 2'
+          ParentColor = False
+        end
+        object tbWhileExecSpeed: TTrackBar
+          Left = 104
+          Height = 25
+          Top = 136
+          Width = 96
+          Position = 0
+          TabOrder = 0
+        end
+        object sedWhileValue1: TSpinEdit
+          Left = 104
+          Height = 23
+          Top = 48
+          Width = 96
+          TabOrder = 1
+        end
+        object sedWhileValue2: TSpinEdit
+          Left = 102
+          Height = 23
+          Top = 88
+          Width = 98
+          TabOrder = 2
+        end
+        object lblWhileExecSpeed: TLabel
+          Left = 8
+          Height = 15
+          Top = 136
+          Width = 85
+          Caption = 'Execution speed'
+          ParentColor = False
+        end
+        object btnWhileCnt: TButton
+          Left = 6
+          Height = 25
+          Top = 215
+          Width = 194
+          Caption = 'Count'
+          OnClick = btnWhileCntClick
+          TabOrder = 3
+        end
+        object btnWhileAdd: TButton
+          Left = 6
+          Height = 25
+          Top = 263
+          Width = 194
+          Caption = 'Execution (Add)'
+          OnClick = btnWhileAddClick
+          TabOrder = 4
+        end
+        object btnWhileConcat: TButton
+          Left = 6
+          Height = 25
+          Top = 311
+          Width = 194
+          Caption = 'Concatenate digits'
+          OnClick = btnWhileConcatClick
+          TabOrder = 5
+        end
+        object lstWhileResults: TListBox
+          Left = 216
+          Height = 336
+          Top = 48
+          Width = 280
+          ItemHeight = 0
+          TabOrder = 6
+        end
+        object pbarWhile: TProgressBar
+          Left = 8
+          Height = 20
+          Top = 416
+          Width = 488
+          TabOrder = 7
+        end
+        object lblWhileDescr: TLabel
+          Left = 8
+          Height = 30
+          Top = 8
+          Width = 436
+          Caption = 'The while keyword starts a control loop that is executed as long as the Expression is'#13#10'satisfied (returns True). '
+          ParentColor = False
+        end
+        object lblWhileProgress: TLabel
+          Left = 224
+          Height = 15
+          Top = 400
+          Width = 45
+          Caption = 'Progress'
+          ParentColor = False
+        end
+        object btnResetWhile: TBitBtn
+          Left = 8
+          Height = 30
+          Top = 354
+          Width = 192
+          Caption = 'Reset'
+          Glyph.Data = {
+            DA020000424DDA0200000000000036000000280000000D0000000D0000000100
+            200000000000A402000064000000640000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000B8652F00B564
+            2F0AA65E2E11CB70350000000000000000000000000000000000000000000000
+            0000000000000000000000000000CC753B00D17C410DCE864B5BA970400EA66C
+            3C00000000000000000000000000000000000000000000000000000000000000
+            0000C5723A00FBBA6A00E99F5A70D692525EFFE8830000000000000000000000
+            0000000000000000000000000000000000000000000000000000EFA25900EC9E
+            5744E79C55B8A668391600000000000000000000000000000000000000000000
+            0000000000000000000000000000E1904E00E2914E26EA9951D9CB814552BE64
+            3659BF62326ABF5C2869C15E2769C4642D6AC4683166AB5C2E20CB6E37000000
+            0000DB864700DC86471EE9924BDFD584458BD06D3BDAD46C36FFD46A32FFD468
+            2BFFD66B2DFBD06D3196B2603110C369340000000000D8804300D67F422BE589
+            44EBD68040A6D06D3BDAD46B36FFD66E38FFD77037FFCB6831B39B4D2210A955
+            270000000000723C1F00E9864200D67A3D5CE1813DFDD2793C9CCF6C3BDAD36A
+            36FFD46C37FFD67039FFD16E38DFB15E304A0000000266341B00D6794100BE6A
+            391CDA7D41C2DF8041FECB753E6DCF6C3CDBD16A37FAD26E3BEBD56E39FFD670
+            39FFD26F39E6C2673585B8613247C46A365BD5763EBDDD7D41FFD87B41D6BB6A
+            3A26CD6C3ED5C7673990C56F4242D2713ECDD56F39FFD67039FFD6713AFED672
+            3BF8D8753CFBDA773EFFD8773EF3CB703C64FFFF8800BD69405FAF5E3910CC6D
+            3E00C9734525D0724097D3703CE5D5703BFBD6713BFFD6723CF9D4723CD5CC6F
+            3B63A3572F06B15F33008D3E1B02A049230000000000C2714600B96F4706C972
+            4430CD714164CE713F75CC6F3D5CC2693A227A4125019E552F0000000000
+          }
+          OnClick = btnResetWhileClick
+          TabOrder = 8
+        end
+      end
+    end
+  end
+end
