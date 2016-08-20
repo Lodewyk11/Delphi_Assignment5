@@ -4,14 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="assignment5.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="26" Y="10"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="43"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,13 +20,23 @@
         <ComponentName Value="frm2016Assignment5"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="22"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="73"/>
+        <CursorPos X="5" Y="113"/>
+        <UsageCount Value="43"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="assignment5_unit.lfm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="30" Y="63"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
     </Units>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="assignment5.lpr"/>
         <Caret Line="20" Column="56"/>
@@ -74,6 +84,22 @@
         <Filename Value="assignment5.lpr"/>
         <Caret Line="18" Column="65"/>
       </Position12>
+      <Position13>
+        <Filename Value="assignment5_unit.pas"/>
+        <Caret Line="103" Column="10" TopLine="94"/>
+      </Position13>
+      <Position14>
+        <Filename Value="assignment5_unit.pas"/>
+        <Caret Line="113" Column="5" TopLine="101"/>
+      </Position14>
+      <Position15>
+        <Filename Value="assignment5_unit.pas"/>
+        <Caret Line="115" Column="5" TopLine="103"/>
+      </Position15>
+      <Position16>
+        <Filename Value="assignment5_unit.pas"/>
+        <Caret Line="113" Column="5" TopLine="73"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

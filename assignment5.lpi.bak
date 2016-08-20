@@ -44,7 +44,6 @@
         <ComponentName Value="frm2016Assignment5"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="assignment5"/>
       </Unit1>
     </Units>
   </ProjectOptions>

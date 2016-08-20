@@ -1,4 +1,4 @@
-unit assignment5;
+unit assignment5_unit;
 
 {$mode objfpc}{$H+}
 
@@ -105,6 +105,13 @@ begin
   value2 := sedWhileValue2.Value;
   execSpeed := tbWhileExecSpeed.Position;
 
+  //Ensure values are valid.
+  if(value1 > value2) then
+  begin
+    ShowMessage('Please ensure that Value 2 is greater than or equal to Value 1');
+    exit;
+  end;
+
   //Initialize the loop counter.
   loopCount := 0;
 
@@ -139,7 +146,7 @@ begin
 end;
 
 procedure Tfrm2016Assignment5.btnWhileConcatClick(Sender: TObject);
-   //Declare variables.
+  //Declare variables.
   var value1 : Integer;
   var value2 : Integer;
   var iCount : Integer;
@@ -150,6 +157,13 @@ begin
  value1 := sedWhileValue1.Value;
  value2 := sedWhileValue2.Value;
  execSpeed := tbWhileExecSpeed.Position;
+
+ //Ensure values are valid.
+  if(value1 > value2) then
+  begin
+    ShowMessage('Please ensure that Value 2 is greater than or equal to Value 1');
+    exit;
+  end;
 
  //Initialize the total variable.
  concatStr := '';
@@ -199,6 +213,13 @@ begin
   value2 := sedForValue2.Value;
   execSpeed := tbForExecSpeed.Position;
 
+  //Ensure values are valid.
+  if(value1 > value2) then
+  begin
+    ShowMessage('Please ensure that Value 2 is greater than or equal to Value 1');
+    exit;
+  end;
+
   //Initialize the loop counter.
   loopCount := 0;
 
@@ -243,6 +264,13 @@ begin
  value1 := sedForValue1.Value;
  value2 := sedForValue2.Value;
  execSpeed := tbForExecSpeed.Position;
+
+ //Ensure values are valid.
+  if(value1 > value2) then
+  begin
+    ShowMessage('Please ensure that Value 2 is greater than or equal to Value 1');
+    exit;
+  end;
 
  //Initialize the total variable.
  concatStr := '';
@@ -308,6 +336,13 @@ begin
   value1 := sedWhileValue1.Value;
   value2 := sedWhileValue2.Value;
   execSpeed := tbWhileExecSpeed.Position;
+
+  //Ensure values are valid.
+  if(value1 > value2) then
+  begin
+    ShowMessage('Please ensure that Value 2 is greater than or equal to Value 1');
+    exit;
+  end;
 
   //Initialize the total variable.
   nTotal := 0;
